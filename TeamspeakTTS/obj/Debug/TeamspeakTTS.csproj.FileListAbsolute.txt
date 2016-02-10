@@ -1,0 +1,25 @@
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\bin\Debug\TeamspeakTTS.exe.config
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\bin\Debug\TeamspeakTTS.exe
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\bin\Debug\TeamspeakTTS.pdb
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.csprojResolveAssemblyReference.cache
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\MainWindow.g.cs
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\App.g.cs
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS_MarkupCompile.cache
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS_MarkupCompile.lref
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\MainWindow.baml
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.g.resources
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.Properties.Resources.resources
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.csproj.GenerateResource.Cache
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.exe
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.pdb
+C:\Users\Cake\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\bin\Debug\TeamspeakTTS.exe.config
+C:\Users\Cake\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.exe
+C:\Users\Cake\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.pdb
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\bin\Debug\TeamspeakTTS.exe.config
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.exe
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.pdb
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\MainWindow.g.cs
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\App.g.cs
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS_MarkupCompile.cache
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Debug\TeamspeakTTS_MarkupCompile.lref

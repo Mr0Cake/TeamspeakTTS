@@ -1,0 +1,10 @@
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\ChatProvider\bin\Debug\ChatProvider.dll
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\ChatProvider\bin\Debug\ChatProvider.pdb
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\ChatProvider\obj\Debug\ChatProvider.csprojResolveAssemblyReference.cache
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\ChatProvider\obj\Debug\ChatProvider.dll
+d:\kevin\documents\visual studio 2015\Projects\TeamspeakTTS\ChatProvider\obj\Debug\ChatProvider.pdb
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\ChatProvider\bin\Debug\ChatProvider.dll
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\ChatProvider\bin\Debug\ChatProvider.pdb
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\ChatProvider\obj\Debug\ChatProvider.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\ChatProvider\obj\Debug\ChatProvider.dll
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\ChatProvider\obj\Debug\ChatProvider.pdb

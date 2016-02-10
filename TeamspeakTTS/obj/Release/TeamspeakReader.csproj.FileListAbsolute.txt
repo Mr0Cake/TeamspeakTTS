@@ -1,0 +1,13 @@
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\bin\Release\TeamspeakTTS.exe.config
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\bin\Release\TeamspeakTTS.exe
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\bin\Release\TeamspeakTTS.pdb
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\Config.g.cs
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\App.g.cs
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakTTS_MarkupCompile.cache
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakTTS_MarkupCompile.lref
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\Config.baml
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakTTS.g.resources
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakTTS.Properties.Resources.resources
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakReader.csproj.GenerateResource.Cache
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakTTS.exe
+D:\Dropbox\Dropbox\Github\TeamspeakTTS\TeamspeakTTS\obj\Release\TeamspeakTTS.pdb

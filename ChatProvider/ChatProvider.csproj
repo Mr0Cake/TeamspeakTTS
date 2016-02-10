@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5DEA738-85E5-4D4F-819F-B10DD8124469}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChatProvider</RootNamespace>
+    <AssemblyName>ChatProvider</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\AsyncFileTransfer.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\AsyncTcpDispatcher.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\CommandName.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Entities\ChannelListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Entities\ClientListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Entities\ClientModification.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Entities\ClientNotifyRegisterEvent.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Notification\Enums\TalkStatus.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Notification\EventArgs\TalkStatusEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Notification\EventArgs\TalkStatusEventArgsBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Notification\Notifications.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\QueryRunner.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Responses\ChannelConnectionInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Client\Responses\WhoAmIResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\Command.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\CommandParameter.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\CommandParameterBlock.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\CommandParameterGroup.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\CommandParameterGroupList.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\GroupDatabaseType.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\KickReason.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\LogLevel.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\CommandHandling\MessageTarget.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\ChannelTreeItem.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Entities\ChannelListEntryBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Entities\ClientModificationBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Entities\ModificationBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Entities\SpacerInfo.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\EventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\IDump.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\IQueryDispatcher.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Notification\NotificationsBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\QueryRunnerBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\ReadOnlyDictionary.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Responses\ListResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Responses\ResponseBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Responses\SimpleResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Responses\SingleValueResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\Responses\WhoAmIResponseBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\SharedCommandName.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Common\TS3Util.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Communication\AsyncSocketMethodHelper.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Communication\SocketAsyncEventArgsUserToken.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Communication\SocketErrorEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\FileTransferBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\CommandName.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\BanListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ChannelFindEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ChannelGroup.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ChannelGroupClient.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ChannelListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ChannelModification.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientDBEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientDbEntryListResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientFindEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientIdEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientModification.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ClientPermission.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ComplainListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\CustomInfoEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\CustomSearchEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\FileTransferFileEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\FileTransferListEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\LogEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\LogEntryLight.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\MessageEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\NamedClientPermission.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\NamedPermission.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\NamedPermissionLight.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\Permission.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\PermissionDetails.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\PermissionFindEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\PermissionInfo.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\PermissionLight.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\PermissionOverviewEntry.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerGroup.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerGroupClient.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerGroupLight.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerInstanceModification.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerListItem.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerListItemBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\ServerNotifyRegisterEvent.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\SpacerAlignment.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\Token.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Entities\VirtualServerModification.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientBanEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientConnectionLostEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientDisconnectEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientJoinedEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientKickEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientMovedByClientEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\ClientMovedEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\MessageReceivedEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\EventArgs\TokenUsedEventArgs.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\Notifications.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Notification\ReasonEnums.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\QueryRunner.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\QueryUtils.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ChannelInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ClientDbInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ClientGetNameFromDbIdResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ClientGetNameFromUniqueIdResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ClientInfoBaseResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ClientInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ConnectionInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\CreateServerResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\GetMessageResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\HostBannerMode.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\HostInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\InitializeFileDownloadResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\InitializeFileUploadResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\InstanceInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\OwnPermissionResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\ServerInfoResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\VersionResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\Server\Responses\WhoAmIResponse.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\SyncFileTransfer.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\SyncTcpDispatcher.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\TcpDispatcherBase.cs" />
+    <Compile Include="TS3QueryLib.Core.Framework\TypeExtensions\ExtensionMethods.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
